@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 2</title>
+    <script src="https://kit.fontawesome.com/241b8cec16.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-detail1{
+        padding: 5px 0 0 20px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-detail2{
+        padding: 5px 20px 0 0 ;
+
+    }
+    .container{
+        background-color: rgb(195, 193, 193);
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+
+    }
+    .content1{
+        background-color: white;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .content1-detail1{
+        margin: 50px 0;
+    }
+    .content1-detail1 h2{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .text{
+        background-color: gray;
+        border-left: 5px solid black;
+        border-right: 5px solid black;
+    }
+    .content1-detail2{
+        width: 90%;
+    }
+    .content1-detail2 img{
+        width: 100%;
+        height: 1000px;
+        position: relative;
+    }
+    .content1-detail2 div{
+        position: absolute;
+        left: 200px;
+        top: 600px;
+        color: rgb(102, 94, 94);
+    }
+    .content2{
+        width: 60%;
+    }
+    .content2-detail{
+        margin: 10px 0 0 20px;
+        background-color: white;
+        padding: 10px;
+        width: 50%;
+    }
+    .title1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .title2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title2 img{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .title2 p{
+        width: 90%;
+    }
+    .title3{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px 0 0 35px;
+    }
+    .title3 input{
+        width: 50px;
+        height: 30px;
+    }
+    .text1{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .title4{
+        margin: 20px 0 0 35px;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
+    .title4 img{      
+        width: 200px;
+    }
+    .content3{
+        width: 60%;
+    }
+    .content3-detail{
+        margin: 10px 0 0 20px;
+        background-color: white;
+        padding: 10px;
+        width: 50%;
+    }
+    .title5{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .title6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title6 img{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .title6 p{
+        width: 90%;
+    }
+    .title7{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px 0 0 35px;
+    }
+    .title7 input{
+        width: 50px;
+        height: 30px;
+    }
+    .text2{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .content4{
+        width: 60%;
+    }
+    .content4-detail{
+        margin: 10px 0 0 20px;
+        background-color: white;
+        padding: 10px;
+        width: 50%;
+    }
+    .title8{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .title9{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title9 img{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .title9 p{
+        width: 90%;
+    }
+    .title10{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px 0 0 35px;
+    }
+    .title10 input{
+        width: 50px;
+        height: 30px;
+    }
+    .text3{
+        background-color: black;
+        color: white;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .content5{
+        width:20% ;
+    }
+</style>
+<body>
+    <header>
+         <div class="header-detail1">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-solid fa-camera-retro"></i>
+            <i class="fa-brands fa-discord"></i>
+            <i class="fa-solid fa-window"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="header-detail2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <div  class="container">
+        <div class="content1">
+            <div class="content1-detail1">
+                <h2>JANE BLOGLIFE</h2>
+                <p>
+                    <span>Welcome to the blog of</span>
+                    <span class="text">Jane's world</span>
+                </p>
+            </div>
+            <div class="content1-detail2">
+                <img src="https://th.bing.com/th/id/OIP.-JHh4IuKVSrHLTveMCwiwwHaLG?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Photo">
+                <div>
+                    <p style="margin-bottom: 20px; font-size: 20px;">Jane's </p>
+                    <p style="font-size: 50px; font-weight: 600;">FASHION BLOG</p>
+                    <button style="height: 50px; width: 100px;">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="content2-detail">
+                 <div class="title1">
+                    <h3>TITLE HEADING</h3>
+                    <p>
+                        <span>Title decription,</span>
+                        <span style="opacity: 0.8;">May 2,2016</span>
+                    </p>
+                </div>
+                <div class="title2">
+                    <img src="https://th.bing.com/th/id/OIP.gLAuA705U3WiVSHkFY9VWwHaEJ?w=302&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Photo">
+                    <p>
+                        <span><b>More Hats!</b></span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta accusantium minima corporis, officia accusamus eaque voluptates optio eius! Error, culpa maiores. Quidem modi dolorum pariatur, debitis nesciunt consectetur saepe ducimus iste doloribus? Minima enim nemo error illo maxime corrupti quaerat?
+                    </p>
+                </div>
+                <div class="title3">
+                    <input type="image" src="https://th.bing.com/th/id/OIP.0J8-hxVB9RugufnUJ9APiwAAAA?w=186&h=106&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    <div class="text1">
+                        <span>Replies</span>
+                        <span style="background-color: gray; color: aqua; margin-left: 5px; width: 20px; text-align: center;">1</span>
+                    </div>
+                </div>
+                <div class="title4">
+                    <div>
+                        <img src="https://th.bing.com/th?id=OIP.jMR4RSSVDeooTTpC1HTSOwAAAA&w=317&h=196&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Photo">
+                    </div>
+                    <div>
+                        <p>
+                            <span><b>George</b></span>
+                            <span style="opacity: 0.8;">May 3,2015, 6:32pm</span>
+                        </p>
+                        <p style="font-style: italic;">Great blog post Following </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content3">
+            <div class="content3-detail">
+                <div class="title5">
+                    <h3>TITLE HEADING</h3>
+                    <p>
+                        <span>Title decription,</span>
+                        <span style="opacity: 0.8;">April 23,2016</span>
+                    </p>
+                </div>
+                <div class="title6">
+                    <img src="https://th.bing.com/th/id/OIP.uTqgL2esTwzvotDrxo0mMgHaKo?w=130&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Photo">
+                    <p>
+                        <span><b>Hats!</b></span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta accusantium minima corporis, officia accusamus eaque voluptates optio eius! Error, culpa maiores. Quidem modi dolorum pariatur, debitis nesciunt consectetur saepe ducimus iste doloribus? Minima enim nemo error illo maxime corrupti quaerat?
+                    </p>
+                </div>
+                <div class="title7">
+                    <input type="image" src="https://th.bing.com/th/id/OIP.0J8-hxVB9RugufnUJ9APiwAAAA?w=186&h=106&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    <div class="text2">
+                        <span>Replies</span>
+                        <span style="background-color: gray; color: aqua; margin-left: 5px; width: 20px; text-align: center;">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content4">
+            <div class="content4-detail">
+                <div class="title8">
+                    <h3>TITLE HEADING</h3>
+                    <p>
+                        <span>Title decription,</span>
+                        <span style="opacity: 0.8;">April 23,2016</span>
+                    </p>
+                </div>
+                <div class="title9">
+                    <img src="https://th.bing.com/th/id/OIP.gqwRnyH0TDbNFV1o3Ur_TwHaEK?w=202&h=113&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Photo">
+                    <p>
+                        <span><b>Hats!</b></span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta accusantium minima corporis, officia accusamus eaque voluptates optio eius! Error, culpa maiores. Quidem modi dolorum pariatur, debitis nesciunt consectetur saepe ducimus iste doloribus? Minima enim nemo error illo maxime corrupti quaerat?
+                    </p>
+                </div>
+                <div class="title10">
+                    <input type="image" src="https://th.bing.com/th/id/OIP.0J8-hxVB9RugufnUJ9APiwAAAA?w=186&h=106&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                    <div class="text3">
+                        <span>Replies</span>
+                        <span style="background-color: gray; color: aqua; margin-left: 5px; width: 20px; text-align: center;">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
